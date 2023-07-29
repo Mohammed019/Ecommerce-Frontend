@@ -8,9 +8,11 @@ import ProductProvider from "./contexts/ProductContext.tsx";
 import SidebarProvider from "./contexts/SidebarContext.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <ProductProvider>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </ProductProvider>
+  <SidebarProvider>
+    <ProductProvider>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </ProductProvider>
+  </SidebarProvider>
 );
