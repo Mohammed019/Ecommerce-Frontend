@@ -25,6 +25,9 @@ export default {
       backgroundImage: {
         hero: "url('./img/bg_hero.svg')",
       },
+      transitionDuration: {
+        300: "300ms",
+      },
     },
   },
   plugins: [],
