@@ -17,5 +17,4 @@ Features
     Add to Cart: Easily add products to the shopping cart.
     Smooth Animations: Experience delightful motion effects to enhance user interaction.
 
-
 Happy coding!
