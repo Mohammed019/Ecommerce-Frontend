@@ -1,8 +1,21 @@
-# React + Vite
+Ecommerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Ecommerce Frontend repository! This project provides a simple yet effective frontend for an Ecommerce website. It allows users to browse products, add items to their cart, and experience smooth animations for a delightful shopping experience.
+How to Run
 
-Currently, two official plugins are available:
+To run the Ecommerce Frontend locally on your machine, follow these steps:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    Clone the repository: git clone https://github.com/Mohammed019/Ecommerce-Frontend.git
+    Navigate to the project directory: cd Ecommerce-Frontend
+    Install the dependencies: npm install
+    Run the development server: npm run dev
+
+Now you can access the Ecommerce website by opening your browser and visiting http://localhost:5173/.
+Features
+
+    Product Catalog: View a variety of products in the catalog.
+    Add to Cart: Easily add products to the shopping cart.
+    Smooth Animations: Experience delightful motion effects to enhance user interaction.
+
+
+Happy coding!
