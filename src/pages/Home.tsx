@@ -5,12 +5,9 @@ import Product from "../components/Product";
 const Home = () => {
   // get products from product context
   const { products } = useContext(ProductContext);
-  const FilteredProducts = products.filter(
-    (product) =>
-      product.category === "men's clothing" ||
-      product.category === "women's clothing"
-  );
-  console.log(FilteredProducts);
+  const FilteredProducts = products.filter((product) => {
+    return product;
+  });
 
   return (
     <div>

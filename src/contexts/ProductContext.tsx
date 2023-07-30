@@ -1,4 +1,3 @@
-// import create context and usestate and useeffect
 import { createContext, useState, useEffect } from "react";
 
 export const ProductContext = createContext(null);
@@ -18,6 +17,7 @@ const ProductProvider = ({ children }) => {
   }, []);
 
   return (
+    // Pass products state to the value prop
     <ProductContext.Provider value={{ products }}>
       {children}
     </ProductContext.Provider>
